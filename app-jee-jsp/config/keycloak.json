@@ -3,6 +3,8 @@
   "auth-server-url": "https://secure-sso-rh-sso.apps.chilecompra-20ad.openshiftworkshop.com/auth",
   "ssl-required": "none",
   "resource": "app-jsp",
-  "public-client": true,
+  "credentials": {
+    "secret": "19b6ebcb-422c-404f-b2d6-29abfc95e141"
+  },
   "confidential-port": 0
 }
