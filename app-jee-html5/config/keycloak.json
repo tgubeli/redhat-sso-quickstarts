@@ -1,8 +1,8 @@
 {
   "realm": "ClaveUnica",
-  "bearer-only": true,
   "auth-server-url": "https://secure-sso-rh-sso.apps.chilecompra-20ad.openshiftworkshop.com/auth",
-  "ssl-required": "external",
+  "ssl-required": "none",
   "resource": "app-jsp",
+  "public-client": true,
   "confidential-port": 0
 }
